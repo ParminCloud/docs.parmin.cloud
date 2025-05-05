@@ -1,0 +1,53 @@
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images"
+    filename:
+      desktop: "gradient-desktop.jpg"
+      mobile: "gradient-mobile.jpg"
+
+  badge:
+    text: "نسخه آزمایشی"
+    color: primary
+    pill: false
+    soft: true
+
+  titleLogo:
+    path: "images"
+    filename: "logo.svg"
+    alt: "Parmin Logo"
+    height: 80px
+
+  title: |
+    مستندات پارمین
+  subtitle: "راهنمای استفاده از خدمات پارمین"
+
+  image:
+    path: "images"
+    filename: "banner.svg"
+    alt: "Banner Image"
+    boxShadow: true
+    rounded: true
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "شروع کنید"
+    url: "/docs"
+  cta2Button:
+    icon: construction
+    btnText: "در گیتهاب ببینید"
+    url: "https://github.com/ParminCloud/docs.parmin.cloud"
+
+  info: "پایدار با پارمین"
+
+featureGrid:
+  enable: false
+
+imageText:
+  enable: false
+
+imageCompare:
+  enable: false

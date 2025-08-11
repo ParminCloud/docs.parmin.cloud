@@ -71,3 +71,7 @@ defaultContentLanguage = "fa"
     extLinkNewTab   = true
     # logoLinkURL = ""
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
